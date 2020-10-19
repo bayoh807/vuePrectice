@@ -1,0 +1,19 @@
+@import './all.scss';
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    .nav-head{
+        width: 100%;
+        display: flex;
+        // min-height: 10vmin;
+        box-sizing : border-box; 
+        padding: 2vmin 1vmin;
+        background-color: $bg-dark;
+        font-size: 1.25rem;
+        .web_name{
+            color: rgb(215, 213, 211);
+            font-size: 1.25rem;
+        }
+    }
+}
